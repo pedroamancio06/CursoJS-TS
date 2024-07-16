@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Formulário de cadastro</h1>
+     <ul>
+      <li>Nenhum campo pode estar vazio</li>
+      <li>Usuário só poderá conter letras e/ou números</li>
+      <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+      <li>Senha precisa ter entre 6 e 12 caracteres</li>
+     </ul>
+
+     <form action="" class="form">
+        <label for="name">Nome</label>
+        <input type="text" name="name" class="name validar">
+        
+        <label for="last-name">Sobrenome</label>
+        <input type="text" name="last-name" class="last-name validar">
+
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" class="cpf validar">
+
+        <label for="user">Usuário</label>
+        <input type="text" name="user" class="user validar">
+
+        <label for="password">Senha</label>
+        <input type="password" name="password" class="password validar">
+
+        <label for="confirm-password">Repetir senha</label>
+        <input type="password" name="confirm-password" class="confirm-password validar">
+
+        <button class="btn-submit">Enviar</button>
+     </form>
+  </section>
+
+  <script src="./assets/js/validaCpf.js"></script>
+  <script src="./assets/js/aula86.js"></script>
+</body>
+
+</html>
