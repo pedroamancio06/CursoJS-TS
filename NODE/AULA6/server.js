@@ -3,9 +3,10 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.send(`
-            <form action="/" method="POST">
-                Nome: <input type="text" id="nome" name="nome">
-                <button>Enviar</button>
+        <form action="/" method="POST">
+            Nome: <input type="text" id="nome" name="nome">
+            <button>Enviar</button>
+        </form>
     `);
 });
 
